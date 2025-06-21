@@ -1,0 +1,45 @@
+/* Inicio estilos orejas de Pikachu */
+div.triangle-1 {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #000;
+  border-right: 100px solid transparent;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+div.triangle-2 {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #000;
+  border-left: 100px solid transparent;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* Inicio Estilos mofletes de Pikachu */
+div.circle-1 {
+  background: #ea2a2a;
+  height: 80px;
+  border-radius: 0 100% 0 0;
+  width: 80px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+div.circle-2 {
+  background: #ea2a2a;
+  height: 80px;
+  border-radius: 100% 0 0 0;
+  width: 80px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+/* Fin estilos mofletes de Pikachu */
