@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getAllPokemons } from "../api/pokemonsFetch";
-// import styles from "../PokemonList.css";
+import styles from "../PokemonList.module.css";
 
 const PokemonList = () => {
   const [pokemons, setPokemons] = useState([]);
@@ -61,7 +61,7 @@ const PokemonList = () => {
           }
 
           return (
-            <li key={pokemon.id}>
+            <li className={styles.li} key={pokemon.id}>
               <p>ID: {pokemon.id}</p>
               <p>Name: {pokemon.name}</p>
               <p>Type: {pokemon.type}</p>
