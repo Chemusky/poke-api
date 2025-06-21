@@ -48,8 +48,8 @@ const PokemonList = () => {
 
   return (
     <div>
-      <h2>Pokémon List</h2>
-      <ul>
+      <h2 style={{ textAlign: "center" }}>Pokémon List</h2>
+      <ul style={{ display: "flex", flexWrap: "wrap", gap: "50px" }}>
         {pokemons.map((pokemon) => {
           let evolvesFromDisplay = null;
           if (pokemon.evolvesFrom) {
